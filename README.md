@@ -1,6 +1,6 @@
-# React-Tailwind-Vitest
+# Controlled Components
 
-This is a template for a React project using TailwindCSS and Vite/Vitest. It also includes `require('@tailwindcss/forms')` in the `tailwind.config.js` file.
+It's a simple demo of a simple contact form with simple 'real-time' validation.
 
 ## Scripts
 
