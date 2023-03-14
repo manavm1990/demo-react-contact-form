@@ -6,7 +6,7 @@ export function validateEmail(email) {
   const regExp4Email =
     /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-  return regExp4Email.test(String(email).toLowerCase());
+  return regExp4Email.test(email.toLowerCase());
 }
 
 export function validatePassword(password) {
