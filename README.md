@@ -2,6 +2,12 @@
 
 It's a simple demo of a simple contact form with simple 'real-time' validation.
 
+---
+
+![Dependency Graph](./dependency-graph.svg)
+
+---
+
 ## Scripts
 
 - `npm start` - Starts the development server.
