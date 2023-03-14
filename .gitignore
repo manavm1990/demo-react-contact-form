@@ -24,8 +24,6 @@ dist-ssr
 *.sln
 *.sw?
 
-*lock.*
-
 # Whenever using `json-server`
 db.json
 
