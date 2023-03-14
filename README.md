@@ -1,4 +1,4 @@
-# Controlled Components
+# 'Realtime' Validation with React, TailwindCSS, and Vite
 
 It's a simple demo of a simple contact form with simple 'real-time' validation.
 
