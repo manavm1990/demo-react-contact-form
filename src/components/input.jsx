@@ -17,8 +17,8 @@ export default function Input({ id, type, validation }) {
         placeholder={capitalizeFirstLetter(id)}
         className="rounded border-2 border-gray-300 px-4 py-2 focus:border-0 focus:outline-0 focus:drop-shadow-md"
         onBlur={(e) => {
-          const { value } = e.target;
-          if (!validation.validate(value)) setErrorMsg(validation.message);
+          if (!validation.validate(e.target.value))
+            setErrorMsg(validation.message);
         }}
         onFocus={() => setErrorMsg("")}
       />
